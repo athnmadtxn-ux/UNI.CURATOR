@@ -1,0 +1,77 @@
+.name {
+    background-color: black;
+    height: 30px;
+    width: 298px;
+    padding-left: 10px;
+    margin:0 auto;
+}
+.btn{
+    height: 35px;
+    width: 60px;
+    margin: 0 5px;
+    padding: top 20px;
+    cursor: pointer;
+    border-radius: 8px;
+    border: 2px solid black;
+    background-color:rgb(203, 221, 243);
+    color:indigo
+}
+
+#lastbtn{
+     height: 35px;
+     width: 60px;
+     cursor: pointer;
+     border-radius: 8px;
+     border: 2px solid black;
+     cursor: pointer; 
+     background-color:rgb(203, 221, 243);
+     color: indigo;
+}
+.contain{
+    align-content: center;
+    margin:0 auto;
+    width: 295px;
+    height: 260px;
+    border-radius: 8px;
+    background-color:aliceblue;
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+}
+.img1{
+    width: 35px;
+    height: 35px;
+}
+.row input{
+    margin:0  15px;
+    margin-top: 8px;
+    margin-bottom: 5px;
+    height: 25px;
+    width: 260px;
+    border-radius: 5px;
+    border-color: black;
+    background-color:rgb(153, 101, 23);
+    color: antiquewhite;
+    background-image: url(koya2.png), url(girl.png), url(download.png);
+    cursor: pointer;
+    background-repeat: no-repeat;
+    background-size: 20PX 20px, 20px 20px;
+    background-position: right 3px center, right 25px center, right 50px center;
+    
+}
+.frame{
+    background-color: black;
+    border-radius: 10px;
+    border-color: black;
+    width:320px;
+    height: 305px;
+    margin:0 auto;
+}
+.btn:hover{
+    transform: scale(1.1);
+}
+#lastbtn:hover{
+    transform: scale(1.1);
+}
